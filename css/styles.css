@@ -1,0 +1,12 @@
+.jumbotron {
+    margin: 0;
+    padding: 30px;
+    background: #322d66;
+    color: white;
+}
+
+.navbar {
+    background-color: #eded72;
+}
+/*#81a1d4 this is a greyish blue color taken from navbar that I kinda like
+#dede6d this one is a yellowish    background-image: url("../img/jumbotron.jpg");

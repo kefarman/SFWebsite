@@ -5,26 +5,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+
+    <link rel="stylesheet" href="css/styles.css" />
 
     <title>SF Taylor Construction</title>
 </head>
 
 <body>
 
-    <header>
-        <div>
-            <h1>SF Taylor Construction</h1>
-            <h2>All Your Home Needs.</h2>
+    <header class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-4 col-sm-3 col-md-2 align-self-center">
+                    <img src="img/logo.jfif" class="img-fluid" />
+                </div>
+                <div class="col">
+                    <h1>SF Taylor Construction</h1>
+                    <h2>All Your Home Needs.</h2>
+                </div>
+            </div>
         </div>
     </header>
 
+    <nav class="navbar navbar-expand-sm navbar-light sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><img src="img/logo.jfif" height="30" width="30" /></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#sftaylorNavbar">
+                <span class="navbar-toggler-icon"><i class="fa fa-navicon" style="color:#322d66; font-size:28px;"></i></span>
+            </button>
+            <div class="collapse navbar-collapse" id="sftaylorNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Contact Us</a>
+                      </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
     <div>
         <h2>Looking to update?</h2>
-        <p>Are you looking to update your home? It is amazing what a fresh coat of paint or even a new color of paint can do to completely change the feel of a space. Does the exterior of your home look rough or rundown? A thorough pressur wash could restore your home to its original appeal. Does your kitchen look outdated? Sanding and refinishing the original wood may be exactly what your looking for. At SF Taylor no job is too small or insignificant, we aim to honestly evaluate the best approach ot meet your needs and keep cost within your desired budget.</p>
+        <p>Are you looking to update your home? It is amazing what a fresh coat of paint or even a new color of paint can do to completely change the feel of a space. Does the exterior of your home look rough or rundown? A thorough pressur wash could restore your home to its original appeal. Does your kitchen look outdated? Sanding and refinishing the original wood may be exactly what your looking for. At SF Taylor no job is too small or insignificant, we aim to honestly evaluate the best approach to meet your needs and keep cost within your desired budget.</p>
     </div>
     
     <div>
-        <h2>Looking to remodal?</h2>
+        <h2>Looking to remodel?</h2>
         <p>Do you have water damage in your bathroom from years of moisture build up and want a tub instead of a shower? We can work with you to design your dream bathroom with that garden tub you've always wanted. Would you like to use your garage for something more useful than storing junk you don't use or need anymore? We can design and build that mancave or craft room you've been planning for years. Is your back porch unused because of the pesky mosquitos and bugs? We can create a beautiful enclosed setting for you and your loved ones to spend the evenings together watching the sunset.</p>
     </div>
 
@@ -33,27 +65,37 @@
         <p>blah blah blah blahblah blah blah blahblah blah blah blahblah blah blah blahblah blah blah blahblah blah blah blahblah blah blah blahblah blah blah blahblah blah blah blahblah blah blah blahblah blah blah blahblah blah blah blahblah blah blah blahblah blah blah blahblah blah blah blahblah blah blah blahblah blah blah blahblah blah blah blahblah blah blah blahblah blah blah blahblah blah blah blahblah blah blah blahblah blah blah blahblah blah blah blah</p>
     </div>
 
-    <footer>
-        <div>
-            <h5>Links</h5>
-            <ul>
-                <li>1</li>
-                <li>2</li>
-                <li>3</li>
-            </ul>
-        </div>
-
-        <div>
-            <h5>Social Media</h5>
-            <a href="">Facebook</a>
-            <a href="">Youtube</a>
-        </div>
-
-        <div>
-            Tel: 1-123-456-7890 <br />
-            Email: SFTaylorConstruction@construction.co
-        </div>
-    </footer>
+    <section class="site-footer">
+        <footer class="text-center text-md-start" style="background-color: #eded72">
+            <div class="container p-4">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+                        <h5 class="text-uppercase">Located @</h5>
+                        <p>
+                        SF Taylor Construction<br>
+                        1331 Fairmont Ave<br>
+                        Mount Pleasant, SC 29464
+                        </p>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                        <h5 class="text-uppercase">Follow @</h5>
+                                <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i class="fa fa-instagram"></i></a>
+                                <a class="btn btn-social-icon btn-facebook" href="http://facebook.com/"><i class="fa fa-facebook"></i></a>
+                                <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
+                                <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i class="fa fa-youtube"></i></a>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                        <h5 class="text-uppercase mb-0">Contact Us @</h5>
+                            <a role="button" class="btn btn-link" href="tel:+18433456706"><i class="fa fa-phone fa-lg text-primary"></i> 1-843-345-6706</a><br />
+                            <a role="button" class="btn btn-link" href="mailto:samfostay@gmail.com"><i class="fa fa-envelope fa-lg text-primary"></i> samfostay@gmail.com</a>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+                <a class="text-white" href="index.html">SF Taylor Construction</a>
+            </div>
+        </footer>
+    </section>
 
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
