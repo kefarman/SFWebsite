@@ -8,5 +8,13 @@
 .navbar {
     background-color: #eded72;
 }
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+
+
 /*#81a1d4 this is a greyish blue color taken from navbar that I kinda like
 #dede6d this one is a yellowish    background-image: url("../img/jumbotron.jpg");
