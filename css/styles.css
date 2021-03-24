@@ -13,7 +13,9 @@
     background-color: rgba(0, 0, 0, 0.5);
 }
 
-
+.site-footer {
+    padding: 5px 0;
+}
 
 
 /*#81a1d4 this is a greyish blue color taken from navbar that I kinda like
